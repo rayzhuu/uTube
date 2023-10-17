@@ -1,6 +1,6 @@
 [
     {
-        "origin": ["*"],
+        "origin": ["http://localhost:3000"],
         "responseHeader": ["Content-Type"],
         "method": ["PUT"],
         "maxAgeSeconds": 3600
