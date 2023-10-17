@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("/home/user/Documents/cscc73_final/utube-c6906-8626d0a03395.json")
+  credentials = *
   project     = "utube-c6906"
   region      = "us-central1"
 }
